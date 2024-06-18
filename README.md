@@ -750,3 +750,18 @@ Here's a comparison of the `WHERE` and `HAVING` clauses in SQL presented in a ta
 # Cheat Sheat of MySQL
 
 ![Cheat Sheat 1](Readme_Image/MySQL_Cheat_Sheet_1.jpg)
+![Cheat Sheat 2](Readme_Image/MySQL_Cheat_Sheet_2.jpg)
+![Cheat Sheat 3](Readme_Image/MySQL_Cheat_Sheet_3.jpg)
+![Cheat Sheat 4](Readme_Image/MySQL_Cheat_Sheet_4.jpg)
+![Cheat Sheat 5](Readme_Image/MySQL_Cheat_Sheet_5.jpg)
+![Cheat Sheat 6](Readme_Image/MySQL_Cheat_Sheet_6.jpg)
+![Cheat Sheat 7](Readme_Image/MySQL_Cheat_Sheet_7.jpg)
+![Cheat Sheat 8](Readme_Image/MySQL_Cheat_Sheet_8.jpg)
+![Cheat Sheat 9](Readme_Image/MySQL_Cheat_Sheet_9.jpg)
+![Cheat Sheat 10](Readme_Image/MySQL_Cheat_Sheet_10.jpg)
+![Cheat Sheat 11](Readme_Image/MySQL_Cheat_Sheet_11.jpg)
+![Cheat Sheat 12](Readme_Image/MySQL_Cheat_Sheet_12.jpg)
+![Cheat Sheat 13](Readme_Image/MySQL_Cheat_Sheet_13.jpg)
+![Cheat Sheat 14](Readme_Image/MySQL_Cheat_Sheet_14.jpg)
+![Cheat Sheat 15](Readme_Image/MySQL_Cheat_Sheet_15.jpg)
+![Cheat Sheat 16](Readme_Image/MySQL_Cheat_Sheet_16.jpg)
