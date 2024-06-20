@@ -15,7 +15,7 @@
 | [What is SQL](#What-is-SQL)                                                                                                                   |
 | [When SQL appeared](#When-SQL-appeared)                                                                                                       |
 | [What are the usages of SQL](#What-are-the-usages-of-SQL)                                                                                     |
-| [What are the differences between SQL, MySQL, and SQL Server](#What-are-the-differences-between-SQL,-MySQL,-and-SQL-Server)                   |
+| [What are the differences between SQL, MySQL, and SQL Server](#What-are-the-differences-between-SQL, -MySQL, -and-SQL-Server)                   |
 | [What is the difference between SQL and PL/SQL](#What-is-the-difference-between-SQL-and-PL/SQL)                                               |
 | [What is Datatypes in SQL](#What-is-Datatypes-in-SQL)                                                                                         |
 | [What is a database transaction](#What-is-a-database-transaction)                                                                             |
@@ -63,22 +63,22 @@ A database is an organized collection of structured information or data, typical
 
 There are several types of databases, each designed to handle specific needs and use cases:
 
-1. **Relational Databases (RDBMS)**: Structured data organized in tables with predefined relationships.
-2. **NoSQL Databases**: Flexible, schema-less databases for unstructured and semi-structured data.
+01. **Relational Databases (RDBMS)**: Structured data organized in tables with predefined relationships.
+02. **NoSQL Databases**: Flexible, schema-less databases for unstructured and semi-structured data.
 
-3. **Object-Oriented Databases**: Store data as objects, integrating database capabilities with programming languages.
+03. **Object-Oriented Databases**: Store data as objects, integrating database capabilities with programming languages.
 
-4. **Graph Databases**: Optimize for data with complex relationships using nodes, edges, and properties.
+04. **Graph Databases**: Optimize for data with complex relationships using nodes, edges, and properties.
 
-5. **Document Databases**: Store data in JSON-like documents, suitable for hierarchical and nested data.
+05. **Document Databases**: Store data in JSON-like documents, suitable for hierarchical and nested data.
 
-6. **Columnar Databases**: Optimize for querying and analyzing large datasets stored in columns rather than rows.
+06. **Columnar Databases**: Optimize for querying and analyzing large datasets stored in columns rather than rows.
 
-7. **In-Memory Databases**: Store data in main memory for faster access and processing.
+07. **In-Memory Databases**: Store data in main memory for faster access and processing.
 
-8. **Cloud Databases**: Managed databases hosted on cloud platforms, offering scalability and accessibility.
+08. **Cloud Databases**: Managed databases hosted on cloud platforms, offering scalability and accessibility.
 
-9. **Time-Series Databases**: Optimize for storing and querying time-stamped data points, useful for IoT and analytics.
+09. **Time-Series Databases**: Optimize for storing and querying time-stamped data points, useful for IoT and analytics.
 
 10. **Spatial Databases**: Manage geographic and location-based data, supporting spatial queries and indexing.
 
@@ -98,15 +98,15 @@ A Relational Database Management System (RDBMS) organizes data into tables with 
 
 Sure, here are the questions corresponding to the types of databases within an RDBMS:
 
-1. **Operational Database**: What type of database is used for day-to-day operations and transaction processing within organizations?
+01. **Operational Database**: What type of database is used for day-to-day operations and transaction processing within organizations?
 
-2. **Data Warehouse**: Which type of database stores historical and aggregated data for analysis and reporting purposes?
+02. **Data Warehouse**: Which type of database stores historical and aggregated data for analysis and reporting purposes?
 
-3. **Data Mart**: What is a subset of a data warehouse that focuses on specific business lines or departments?
+03. **Data Mart**: What is a subset of a data warehouse that focuses on specific business lines or departments?
 
-4. **Online Transaction Processing (OLTP) Database**: Which database type is optimized for handling transactional workloads in real-time?
+04. **Online Transaction Processing (OLTP) Database**: Which database type is optimized for handling transactional workloads in real-time?
 
-5. **Online Analytical Processing (OLAP) Database**: What type of database is designed for complex queries and data analysis to support decision-making processes?
+05. **Online Analytical Processing (OLAP) Database**: What type of database is designed for complex queries and data analysis to support decision-making processes?
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -124,15 +124,15 @@ A Database Management System (DBMS) is software that manages and organizes data,
 
 Here's a concise definition for each type of DBMS:
 
-1. **Hierarchical DBMS**: Organizes data in a tree-like structure with parent-child relationships.
-2. **Network DBMS**: Extends hierarchical models by allowing many-to-many relationships between nodes.
-3. **Relational DBMS (RDBMS)**: Stores data in tables with predefined relationships; uses SQL for querying.
-4. **Object-Oriented DBMS (OODBMS)**: Stores data as objects with attributes and methods, integrating database and OOP concepts.
-5. **NoSQL DBMS**: Provides flexible schema design for unstructured or semi-structured data; supports distributed architectures.
-6. **In-Memory DBMS**: Stores data primarily in RAM for high-speed processing and low latency.
-7. **Columnar DBMS**: Stores data by column rather than by row, optimized for analytics and data warehouses.
-8. **Cloud-Based DBMS**: Managed database services hosted on cloud platforms, offering scalability and high availability.
-9. **Spatial DBMS**: Manages spatial data types and supports spatial indexing and queries.
+01. **Hierarchical DBMS**: Organizes data in a tree-like structure with parent-child relationships.
+02. **Network DBMS**: Extends hierarchical models by allowing many-to-many relationships between nodes.
+03. **Relational DBMS (RDBMS)**: Stores data in tables with predefined relationships; uses SQL for querying.
+04. **Object-Oriented DBMS (OODBMS)**: Stores data as objects with attributes and methods, integrating database and OOP concepts.
+05. **NoSQL DBMS**: Provides flexible schema design for unstructured or semi-structured data; supports distributed architectures.
+06. **In-Memory DBMS**: Stores data primarily in RAM for high-speed processing and low latency.
+07. **Columnar DBMS**: Stores data by column rather than by row, optimized for analytics and data warehouses.
+08. **Cloud-Based DBMS**: Managed database services hosted on cloud platforms, offering scalability and high availability.
+09. **Spatial DBMS**: Manages spatial data types and supports spatial indexing and queries.
 10. **Time-Series DBMS**: Optimized for storing and querying timestamped data, prevalent in IoT and analytics.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -187,15 +187,15 @@ SQL first appeared in 1974. It is one of the most used languages for maintaining
 
 SQL is responsible for maintaining the relational data and the data structures present in the database. Some of the common usages are given below:
 
-- To execute queries against a database
-- To retrieve data from a database
-- To inserts records in a database
-- To updates records in a database
-- To delete records from a database
-- To create new databases
-- To create new tables in a database
-- To create views in a database
-- To perform complex operations on the database.
+* To execute queries against a database
+* To retrieve data from a database
+* To inserts records in a database
+* To updates records in a database
+* To delete records from a database
+* To create new databases
+* To create new tables in a database
+* To create views in a database
+* To perform complex operations on the database.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -224,9 +224,9 @@ Here's a comparison table highlighting the differences between SQL, MySQL, and S
 
 ### Explanation:
 
-- **SQL**: It's not a specific software but rather a standard language used to communicate with and manage databases. It's implemented by various RDBMS like MySQL, SQL Server, PostgreSQL, etc.
-- **MySQL**: It's an open-source RDBMS originally developed by MySQL AB, now owned by Oracle Corporation. It's known for its ease of use, speed, and reliability.
-- **SQL Server**: It's a proprietary RDBMS developed and maintained by Microsoft. It's known for its robustness, integration with other Microsoft products, and enterprise-level features.
+* **SQL**: It's not a specific software but rather a standard language used to communicate with and manage databases. It's implemented by various RDBMS like MySQL, SQL Server, PostgreSQL, etc.
+* **MySQL**: It's an open-source RDBMS originally developed by MySQL AB, now owned by Oracle Corporation. It's known for its ease of use, speed, and reliability.
+* **SQL Server**: It's a proprietary RDBMS developed and maintained by Microsoft. It's known for its robustness, integration with other Microsoft products, and enterprise-level features.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -247,7 +247,7 @@ Here are the key differences between SQL (Structured Query Language) and PL/SQL 
 | **Error Handling**     | Basic error handling with SQLCODE and SQLERRM    | Advanced error handling with exception handling blocks       |
 | **Code Reusability**   | Limited reusability                              | Encapsulate code into procedures, functions, and packages    |
 | **Transactions**       | Basic transaction support                        | Full transaction control (BEGIN, COMMIT, ROLLBACK)           |
-| **Examples**           | `SELECT`, `INSERT INTO`, `UPDATE`, `DELETE`      | Stored procedures, functions, triggers                       |
+| **Examples**           | `SELECT` , `INSERT INTO` , `UPDATE` , `DELETE` | Stored procedures, functions, triggers                       |
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -257,35 +257,35 @@ Here are the key differences between SQL (Structured Query Language) and PL/SQL 
 
 In SQL (Structured Query Language), data types define the type of data that each column or variable can hold in a database table. Here's an overview of common data types in SQL:
 
-1. **Numeric Types**:
+01. **Numeric Types**:
 
    - **INTEGER**: Whole numbers (e.g., 10, -5).
    - **FLOAT / REAL**: Floating-point numbers with decimal precision (e.g., 3.14).
    - **DECIMAL / NUMERIC**: Fixed-point numbers with exact precision (e.g., 10.50).
 
-2. **Character String Types**:
+02. **Character String Types**:
 
    - **CHAR(n)**: Fixed-length character strings (e.g., CHAR(10)).
    - **VARCHAR(n)**: Variable-length character strings with maximum length (e.g., VARCHAR(255)).
    - **TEXT**: Variable-length character strings for large text data.
 
-3. **Date and Time Types**:
+03. **Date and Time Types**:
 
    - **DATE**: Date without time (e.g., '2024-06-18').
    - **TIME**: Time without date (e.g., '14:30:00').
    - **DATETIME / TIMESTAMP**: Date and time combined (e.g., '2024-06-18 14:30:00').
 
-4. **Boolean Type**:
+04. **Boolean Type**:
 
    - **BOOLEAN / BOOL**: Stores true or false values.
 
-5. **Binary Types**:
+05. **Binary Types**:
 
    - **BINARY**: Fixed-length binary data (e.g., BINARY(10)).
    - **VARBINARY**: Variable-length binary data with maximum length (e.g., VARBINARY(255)).
    - **BLOB**: Binary Large Object for storing large binary data.
 
-6. **Other Types**:
+06. **Other Types**:
    - **ENUM**: Enumeration of possible values.
    - **SET**: Set of possible values.
 
@@ -301,11 +301,11 @@ Certainly! Here's a concise definition including all five key points:
 
 A database transaction in a DBMS is a logical unit of work consisting of SQL operations treated as a single entity. It guarantees:
 
-- **Atomicity**: Ensures all operations complete successfully or none are applied.
-- **Consistency**: Maintains database integrity with all constraints enforced.
-- **Isolation**: Allows transactions to run independently without interference.
-- **Durability**: Ensures committed changes persist despite system failures.
-- **ACID Properties**: These ensure reliability and data integrity in database operations, crucial for maintaining consistency and handling concurrent transactions effectively.
+* **Atomicity**: Ensures all operations complete successfully or none are applied.
+* **Consistency**: Maintains database integrity with all constraints enforced.
+* **Isolation**: Allows transactions to run independently without interference.
+* **Durability**: Ensures committed changes persist despite system failures.
+* **ACID Properties**: These ensure reliability and data integrity in database operations, crucial for maintaining consistency and handling concurrent transactions effectively.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -323,8 +323,8 @@ SQL refers to the Standard Query Language. Therefore, it is true that SQL is a l
 
 Constraints in databases are rules applied to ensure data integrity and consistency.
 
-- **Default Constraint**: Automatically assigns a specified value to a column if no value is provided during insertion.
-- **Unique Constraint**: Ensures that each value in a specified column (or set of columns) is unique across the table, preventing duplicates.
+* **Default Constraint**: Automatically assigns a specified value to a column if no value is provided during insertion.
+* **Unique Constraint**: Ensures that each value in a specified column (or set of columns) is unique across the table, preventing duplicates.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -334,37 +334,37 @@ Constraints in databases are rules applied to ensure data integrity and consiste
 
 Certainly! Here's a restructured version of the provided information, arranging the sentences for clarity and conciseness:
 
-- **Data definition language (DDL):**
+* **Data definition language (DDL):**
 
-  - It defines the data structure using commands like CREATE, ALTER, DROP, etc.
-  - **CREATE:** Used to create tables, databases, schemas, etc.
-  - **ALTER:** Modifies the definition of database objects.
-  - **DROP:** Deletes tables and other database objects.
-  - **ADD COLUMN:** Adds a column to a table schema.
-  - **DROP COLUMN:** Removes a column from a table structure.
-  - **TRUNCATE:** Removes tables, procedures, views, and other database objects.
+  + It defines the data structure using commands like CREATE, ALTER, DROP, etc.
+  + **CREATE:** Used to create tables, databases, schemas, etc.
+  + **ALTER:** Modifies the definition of database objects.
+  + **DROP:** Deletes tables and other database objects.
+  + **ADD COLUMN:** Adds a column to a table schema.
+  + **DROP COLUMN:** Removes a column from a table structure.
+  + **TRUNCATE:** Removes tables, procedures, views, and other database objects.
 
-- **Data manipulation language (DML):**
+* **Data manipulation language (DML):**
 
-  - Used to retrieve and manipulate existing data in the database.
-  - **SELECT INTO:** Selects data from one table and inserts it into another.
-  - **INSERT:** Inserts data/records into a table.
-  - **DELETE:** Deletes records from a table.
-  - **UPDATE:** Updates the value of a record in the database.
+  + Used to retrieve and manipulate existing data in the database.
+  + **SELECT INTO:** Selects data from one table and inserts it into another.
+  + **INSERT:** Inserts data/records into a table.
+  + **DELETE:** Deletes records from a table.
+  + **UPDATE:** Updates the value of a record in the database.
 
-- **Data control language (DCL):**
+* **Data control language (DCL):**
 
-  - Controls access to data stored in the database.
-  - **GRANT:** Provides access or privileges on database objects to users.
-  - **REVOKE:** Removes user access rights or privileges to database objects.
+  + Controls access to data stored in the database.
+  + **GRANT:** Provides access or privileges on database objects to users.
+  + **REVOKE:** Removes user access rights or privileges to database objects.
 
-- **Transaction Control Language (TCL):**
+* **Transaction Control Language (TCL):**
 
-  - Manages transaction operations in the database.
-  - **COMMIT:** Finalizes a transaction, making its changes permanent.
-  - **ROLLBACK:** Reverts the transaction to its state before it started.
-  - **SAVEPOINT:** Sets a point in the transaction to which it can be rolled back.
-  - **SET TRANSACTION:** Sets the characteristics for the transaction, such as isolation level.
+  + Manages transaction operations in the database.
+  + **COMMIT:** Finalizes a transaction, making its changes permanent.
+  + **ROLLBACK:** Reverts the transaction to its state before it started.
+  + **SAVEPOINT:** Sets a point in the transaction to which it can be rolled back.
+  + **SET TRANSACTION:** Sets the characteristics for the transaction, such as isolation level.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -374,37 +374,37 @@ Certainly! Here's a restructured version of the provided information, arranging 
 
 SQL operators are used to perform operations on data in a database. Here are the different types of SQL operators:
 
-1. **Arithmetic Operators**:
+01. **Arithmetic Operators**:
 
    - Used to perform mathematical operations on numeric data.
    - Examples: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `%` (modulo).
 
-2. **Comparison Operators**:
+02. **Comparison Operators**:
 
    - Used to compare values.
    - Examples: `=` (equal to), `<>` or `!=` (not equal to), `>` (greater than), `<` (less than), `>=` (greater than or equal to), `<=` (less than or equal to).
 
-3. **Logical Operators**:
+03. **Logical Operators**:
 
    - Used to combine multiple conditions.
    - Examples: `AND` (both conditions must be true), `OR` (at least one condition must be true), `NOT` (negates a condition).
 
-4. **String Operators**:
+04. **String Operators**:
 
    - Used for concatenating strings.
    - Example: `||` (concatenates strings in some SQL dialects, like PostgreSQL and Oracle).
 
-5. **Bitwise Operators**:
+05. **Bitwise Operators**:
 
    - Used for performing operations at the bit level.
    - Examples: `&` (bitwise AND), `|` (bitwise OR), `^` (bitwise XOR), `~` (bitwise NOT).
 
-6. **Assignment Operators**:
+06. **Assignment Operators**:
 
    - Used to assign values to variables or columns.
    - Example: `=` (assigns a value to a variable or column).
 
-7. **NULL-related Operators**:
+07. **NULL-related Operators**:
    - Used to check for NULL values.
    - Examples: `IS NULL` (checks if a value is NULL), `IS NOT NULL` (checks if a value is not NULL).
 
@@ -446,8 +446,8 @@ Denormalization isthe process of adding precomputed redundant data to an otherwi
 
 ### What are tables and fields in the database
 
-- **Tables** in a database are structures that organize data into rows and columns, representing entities like customers or products.
-- **Fields** (or columns) within tables define the specific attributes or properties of the entities, such as names, dates, or quantities.
+* **Tables** in a database are structures that organize data into rows and columns, representing entities like customers or products.
+* **Fields** (or columns) within tables define the specific attributes or properties of the entities, such as names, dates, or quantities.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -473,32 +473,32 @@ Keys help you to identify any row of data in a table. Keys in RDBMS ensure that 
 
 There are many 8 type of key:-
 
-- Primary Key
-- Foreign Key
-- Candidate Key
-- Super Key
-- Alternate Key
-- Composite Key
-- Unique Key
-- Surrogate Key
+* Primary Key
+* Foreign Key
+* Candidate Key
+* Super Key
+* Alternate Key
+* Composite Key
+* Unique Key
+* Surrogate Key
 
 Certainly! Here's a corrected version of the descriptions for each type of key:
 
-- **Primary Key**: A column or set of columns in a table that uniquely identifies each row in that table. It must be unique and cannot contain null values.
+* **Primary Key**: A column or set of columns in a table that uniquely identifies each row in that table. It must be unique and cannot contain null values.
 
-- **Foreign Key**: A column or group of columns in a table that establishes a relationship with another table's Primary Key. It maintains referential integrity between the two related tables.
+* **Foreign Key**: A column or group of columns in a table that establishes a relationship with another table's Primary Key. It maintains referential integrity between the two related tables.
 
-- **Candidate Key**: A set of attributes that uniquely identifies tuples (rows) in a table. It is a super key with no redundant attributes.
+* **Candidate Key**: A set of attributes that uniquely identifies tuples (rows) in a table. It is a super key with no redundant attributes.
 
-- **Super Key**: A set of attributes that uniquely identifies a row within a table. It may contain more attributes than necessary to uniquely identify a row.
+* **Super Key**: A set of attributes that uniquely identifies a row within a table. It may contain more attributes than necessary to uniquely identify a row.
 
-- **Alternate Key**: A column or set of columns in a table that can uniquely identify each row, but is not selected as the Primary Key.
+* **Alternate Key**: A column or set of columns in a table that can uniquely identify each row, but is not selected as the Primary Key.
 
-- **Composite Key**: A combination of two or more columns that uniquely identifies each row in a table. Individually, these columns may not be unique.
+* **Composite Key**: A combination of two or more columns that uniquely identifies each row in a table. Individually, these columns may not be unique.
 
-- **Unique Key**: A constraint that ensures all values within a column (or set of columns) are distinct from one another. It allows for the storage of unique values only, preventing duplicates.
+* **Unique Key**: A constraint that ensures all values within a column (or set of columns) are distinct from one another. It allows for the storage of unique values only, preventing duplicates.
 
-- **Surrogate Key**: An artificial key generated by the database system, typically a numeric or alphanumeric identifier, used as the Primary Key. It ensures each record in the table can be uniquely identified.
+* **Surrogate Key**: An artificial key generated by the database system, typically a numeric or alphanumeric identifier, used as the Primary Key. It ensures each record in the table can be uniquely identified.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -532,14 +532,14 @@ An index in SQL is a database structure that improves the speed of data retrieva
 
 Certainly! Here are the correct explanations for each type of index:
 
-1. **Unique Index**: Ensures that the values in the indexed column(s) are unique across the table.
-2. **Clustered Index**: Orders the physical rows in the table based on the indexed column(s).
-3. **Non-Clustered Index**: Creates a separate structure that contains the indexed column(s) values and pointers to the actual rows in the table.
-4. **Bit-Map Index**: Used to index low-cardinality data (data with few distinct values), storing bitmaps for each possible value.
-5. **Normal Index**: This term isn't commonly used in SQL indexing terminology. It might refer to a default index type, such as a B-tree index.
-6. **Composite Index**: Uses multiple columns as a combined index key, allowing queries to efficiently filter and sort based on the combination of these columns.
-7. **B-Tree Index**: A balanced tree structure that organizes data for efficient retrieval, commonly used for indexing in most databases.
-8. **Function-Based Index**: Indexes the result of a function or expression rather than simply indexing column values, allowing indexing on computed or transformed data.
+01. **Unique Index**: Ensures that the values in the indexed column(s) are unique across the table.
+02. **Clustered Index**: Orders the physical rows in the table based on the indexed column(s).
+03. **Non-Clustered Index**: Creates a separate structure that contains the indexed column(s) values and pointers to the actual rows in the table.
+04. **Bit-Map Index**: Used to index low-cardinality data (data with few distinct values), storing bitmaps for each possible value.
+05. **Normal Index**: This term isn't commonly used in SQL indexing terminology. It might refer to a default index type, such as a B-tree index.
+06. **Composite Index**: Uses multiple columns as a combined index key, allowing queries to efficiently filter and sort based on the combination of these columns.
+07. **B-Tree Index**: A balanced tree structure that organizes data for efficient retrieval, commonly used for indexing in most databases.
+08. **Function-Based Index**: Indexes the result of a function or expression rather than simply indexing column values, allowing indexing on computed or transformed data.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -549,7 +549,7 @@ Certainly! Here are the correct explanations for each type of index:
 
 The difference between clustered and non-clustered indexes in SQL lies primarily in how they organize and store data within the database:
 
-1. **Clustered Index**:
+01. **Clustered Index**:
 
    - **Organization**: Physically orders the data rows in the table based on the indexed column(s).
    - **Storage**: Changes the physical order of the table's rows.
@@ -557,7 +557,7 @@ The difference between clustered and non-clustered indexes in SQL lies primarily
    - **Performance**: Typically faster for retrieval operations involving range queries or sequential access because rows are stored contiguously.
    - **Usage**: Often used for columns that are frequently queried and involve range-based searches.
 
-2. **Non-Clustered Index**:
+02. **Non-Clustered Index**:
    - **Organization**: Creates a separate structure from the actual data rows that contains the indexed column(s) and pointers to the corresponding rows.
    - **Storage**: Does not alter the physical order of the table's rows.
    - **Key**: Multiple non-clustered indexes can be created on a table.
@@ -580,23 +580,23 @@ An SQL Join is used to combine data from two or more tables, based on a common f
 
 In SQL, there are several types of joins used to combine rows from two or more tables based on a related column between them. Here are the main types of joins:
 
-1. **INNER JOIN**:
+01. **INNER JOIN**:
 
    - Returns rows that have matching values in both tables based on the join condition.
 
-2. **LEFT JOIN (or LEFT OUTER JOIN)**:
+02. **LEFT JOIN (or LEFT OUTER JOIN)**:
 
    - Returns all rows from the left table (table1), and the matched rows from the right table (table2). Unmatched rows from the left table have NULL values in the result set.
 
-3. **RIGHT JOIN (or RIGHT OUTER JOIN)**:
+03. **RIGHT JOIN (or RIGHT OUTER JOIN)**:
 
    - Returns all rows from the right table (table2), and the matched rows from the left table (table1). Unmatched rows from the right table have NULL values in the result set.
 
-4. **FULL JOIN (or FULL OUTER JOIN)**:
+04. **FULL JOIN (or FULL OUTER JOIN)**:
 
    - Returns all rows when there is a match in either left table (table1) or right table (table2). Unmatched rows from both tables have NULL values in the result set.
 
-5. **CROSS JOIN**:
+05. **CROSS JOIN**:
    - Returns the Cartesian product of rows from both tables (all possible combinations of rows). Useful for generating combinations.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -640,13 +640,13 @@ This table summarizes the key differences between DELETE and TRUNCATE statements
 
 The ACID properties in the context of databases refer to the fundamental guarantees that ensure reliable and consistent transactions. Here's what ACID stands for:
 
-1. **Atomicity**: Ensures that each transaction is treated as a single unit of work, either fully completed or fully rolled back if an error occurs. It guarantees that all operations within a transaction are completed successfully, or none of them are applied to the database.
+01. **Atomicity**: Ensures that each transaction is treated as a single unit of work, either fully completed or fully rolled back if an error occurs. It guarantees that all operations within a transaction are completed successfully, or none of them are applied to the database.
 
-2. **Consistency**: Ensures that a transaction transforms the database from one consistent state to another consistent state. This means that all constraints, rules, and relationships are maintained after the transaction completes, ensuring data integrity.
+02. **Consistency**: Ensures that a transaction transforms the database from one consistent state to another consistent state. This means that all constraints, rules, and relationships are maintained after the transaction completes, ensuring data integrity.
 
-3. **Isolation**: Ensures that the execution of multiple transactions concurrently does not affect the correctness of each transaction. Each transaction appears to be executing in isolation from other transactions, even though they may be executing concurrently.
+03. **Isolation**: Ensures that the execution of multiple transactions concurrently does not affect the correctness of each transaction. Each transaction appears to be executing in isolation from other transactions, even though they may be executing concurrently.
 
-4. **Durability**: Ensures that once a transaction has been committed, it will persist even in the event of a system failure (e.g., power outage, crash). Committed changes are stored permanently in the database and are not lost.
+04. **Durability**: Ensures that once a transaction has been committed, it will persist even in the event of a system failure (e.g., power outage, crash). Committed changes are stored permanently in the database and are not lost.
 
 These ACID properties collectively ensure that database transactions are executed reliably, maintain data integrity, and provide the necessary guarantees for transactional consistency and durability.
 
@@ -666,15 +666,15 @@ A **database lock** is a mechanism used in database management systems (DBMS) to
 
 Database locks can be categorized into various types based on their scope and purpose, such as:
 
-1. **Shared (Read) Lock**: Allows multiple transactions to read a resource concurrently but prevents any transaction from writing to it until all read locks are released.
+01. **Shared (Read) Lock**: Allows multiple transactions to read a resource concurrently but prevents any transaction from writing to it until all read locks are released.
 
-2. **Exclusive (Write) Lock**: Allows a transaction to exclusively write to a resource, preventing other transactions from reading or writing to it until the exclusive lock is released.
+02. **Exclusive (Write) Lock**: Allows a transaction to exclusively write to a resource, preventing other transactions from reading or writing to it until the exclusive lock is released.
 
-3. **Intent Lock**: Indicates the intention of a transaction to acquire a lock at a higher level of granularity (e.g., table-level lock), ensuring compatibility with other transactions.
+03. **Intent Lock**: Indicates the intention of a transaction to acquire a lock at a higher level of granularity (e.g., table-level lock), ensuring compatibility with other transactions.
 
-4. **Schema Lock**: Locks the schema of a database object, preventing structural changes (e.g., altering a table) while the lock is held.
+04. **Schema Lock**: Locks the schema of a database object, preventing structural changes (e.g., altering a table) while the lock is held.
 
-5. **Row Lock**: Locks individual rows in a table, allowing transactions to modify specific rows without conflicting with other transactions modifying different rows.
+05. **Row Lock**: Locks individual rows in a table, allowing transactions to modify specific rows without conflicting with other transactions modifying different rows.
 
 Database locks play a crucial role in maintaining concurrency control and ensuring that transactions are executed in an orderly manner, preventing data inconsistencies and conflicts in multi-user database environments.
 
@@ -686,13 +686,13 @@ Database locks play a crucial role in maintaining concurrency control and ensuri
 
 In SQL, functions are named procedural code blocks that can accept parameters, perform computations, and return a single value or a table result. They serve various purposes and are broadly categorized into two types: scalar functions and table-valued functions.
 
-1. **Scalar Functions**:
+01. **Scalar Functions**:
 
    - Return a single value based on input parameters.
    - Commonly used for calculations, data manipulation, and string operations.
-   - Examples include `SUM()`, `LEN()`, `GETDATE()`, etc.
+   - Examples include `SUM()` , `LEN()` , `GETDATE()` , etc.
 
-2. **Table-Valued Functions**:
+02. **Table-Valued Functions**:
    - Return a table as the result set.
    - Can be used in the `FROM` clause of a SQL query, acting as a virtual table.
    - Examples include inline table-valued functions and multi-statement table-valued functions.
@@ -703,12 +703,12 @@ In SQL, functions are named procedural code blocks that can accept parameters, p
 
 ### Usage of Functions in SQL
 
-- **Data Transformation**: Modify or transform data values.
-- **Data Validation**: Perform checks or calculations to validate input data.
-- **Encapsulation**: Encapsulate complex logic into reusable modules.
-- **Code Reusability**: Reduce redundancy by centralizing logic that is used across multiple queries.
-- **Aggregation**: Aggregate data values (e.g., `SUM()`, `AVG()`).
-- **Date and Time Operations**: Manipulate date and time values (e.g., `DATEADD()`, `DATEDIFF()`).
+* **Data Transformation**: Modify or transform data values.
+* **Data Validation**: Perform checks or calculations to validate input data.
+* **Encapsulation**: Encapsulate complex logic into reusable modules.
+* **Code Reusability**: Reduce redundancy by centralizing logic that is used across multiple queries.
+* **Aggregation**: Aggregate data values (e.g.,     `SUM()`,     `AVG()`).
+* **Date and Time Operations**: Manipulate date and time values (e.g.,     `DATEADD()`,     `DATEDIFF()`).
 
 Functions in SQL enhance query flexibility, simplify complex operations, and improve code maintainability by encapsulating logic within the database schema.
 
@@ -731,17 +731,17 @@ Here's a comparison of the `WHERE` and `HAVING` clauses in SQL presented in a ta
 | Feature                | WHERE Clause                                           | HAVING Clause                                                             |
 | ---------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------- |
 | **Purpose**            | Filters rows before grouping (aggregation).            | Filters grouped rows after aggregation.                                   |
-| **Aggregation**        | Cannot contain aggregation functions.                  | Typically used with aggregation functions (e.g., `SUM()`, `COUNT()`).     |
+| **Aggregation**        | Cannot contain aggregation functions.                  | Typically used with aggregation functions (e.g., `SUM()` , `COUNT()` ).     |
 | **Usage**              | Used with SELECT, UPDATE, DELETE statements.           | Used specifically with SELECT statements after GROUP BY.                  |
 | **Conditions**         | Applies conditions to individual rows.                 | Applies conditions to grouped rows.                                       |
 | **Aggregated Columns** | Cannot refer to aliases, aggregate functions directly. | Can refer to aliases and aggregate functions directly.                    |
 | **Performance**        | Generally faster as it operates on individual rows.    | Can be slower due to operations on aggregated data.                       |
-| **Examples**           | `SELECT * FROM table WHERE condition;`                 | `SELECT column, COUNT(*) FROM table GROUP BY column HAVING COUNT(*) > 1;` |
+| **Examples**           | `SELECT * FROM table WHERE condition;` | `SELECT column, COUNT(*) FROM table GROUP BY column HAVING COUNT(*) > 1;` |
 
 **Summary:**
 
-- **WHERE Clause**: Filters rows based on conditions before any groupings or aggregations occur.
-- **HAVING Clause**: Filters grouped rows based on conditions after the GROUP BY operation and is used with aggregate functions.
+* **WHERE Clause**: Filters rows based on conditions before any groupings or aggregations occur.
+* **HAVING Clause**: Filters grouped rows based on conditions after the GROUP BY operation and is used with aggregate functions.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -749,19 +749,36 @@ Here's a comparison of the `WHERE` and `HAVING` clauses in SQL presented in a ta
 
 # Cheat Sheat of MySQL
 
+![GFG CheatSheat](https://www.geeksforgeeks.org/sql-cheat-sheet/)
+
 ![Cheat Sheat 1](Readme_Image/MySQL_Cheat_Sheet_1.jpg)
+
 ![Cheat Sheat 2](Readme_Image/MySQL_Cheat_Sheet_2.jpg)
+
 ![Cheat Sheat 3](Readme_Image/MySQL_Cheat_Sheet_3.jpg)
+
 ![Cheat Sheat 4](Readme_Image/MySQL_Cheat_Sheet_4.jpg)
+
 ![Cheat Sheat 5](Readme_Image/MySQL_Cheat_Sheet_5.jpg)
+
 ![Cheat Sheat 6](Readme_Image/MySQL_Cheat_Sheet_6.jpg)
+
 ![Cheat Sheat 7](Readme_Image/MySQL_Cheat_Sheet_7.jpg)
+
 ![Cheat Sheat 8](Readme_Image/MySQL_Cheat_Sheet_8.jpg)
+
 ![Cheat Sheat 9](Readme_Image/MySQL_Cheat_Sheet_9.jpg)
+
 ![Cheat Sheat 10](Readme_Image/MySQL_Cheat_Sheet_10.jpg)
+
 ![Cheat Sheat 11](Readme_Image/MySQL_Cheat_Sheet_11.jpg)
+
 ![Cheat Sheat 12](Readme_Image/MySQL_Cheat_Sheet_12.jpg)
+
 ![Cheat Sheat 13](Readme_Image/MySQL_Cheat_Sheet_13.jpg)
+
 ![Cheat Sheat 14](Readme_Image/MySQL_Cheat_Sheet_14.jpg)
+
 ![Cheat Sheat 15](Readme_Image/MySQL_Cheat_Sheet_15.jpg)
+
 ![Cheat Sheat 16](Readme_Image/MySQL_Cheat_Sheet_16.jpg)
