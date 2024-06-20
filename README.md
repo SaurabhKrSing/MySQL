@@ -749,7 +749,7 @@ Here's a comparison of the `WHERE` and `HAVING` clauses in SQL presented in a ta
 
 # Cheat Sheat of MySQL
 
-![GFG CheatSheat](https://www.geeksforgeeks.org/sql-cheat-sheet/)
+[GFG CheatSheat](https://www.geeksforgeeks.org/sql-cheat-sheet/)
 
 ![Cheat Sheat 1](Readme_Image/MySQL_Cheat_Sheet_1.jpg)
 
