@@ -1,6 +1,6 @@
 # SQL Interview Practice Qestions
 
-## employee
+## employee_details
 
 | Column Name  | Data Type   | Constraints                   |
 | ------------ | ----------- | ----------------------------- |
@@ -38,26 +38,25 @@
 | 6   | Write an SQL query to fetch the employees who live in the United States and work under the company `Chatterbridge` in the `Business Development` department  |
 | 7   | Write an SQL query to fetch all the employees who either live in the city of `Al Huf?f` in `Saudi Arabia` or work for the company `Plajo`                    |
 | 8   | Write an SQL query to fetch the employees whose last name begins with any seven characters, followed by a text `ll` and ends with any sequence of characters |
-| 9   | Write an SQL query to fetch employee first name and last name having a salary greater than or equal to 5000 and less than or equal to 10000                  |
+| 9   | Write an SQL query to fetch employee first name and last name having a salary greater than or equal to 9000 and less than or equal to 18000                  |
 | 10  | Write an SQL query to fetch all the Employee details from the employee details table who joined in the Year `2020` use range `01-01-2020` AND `31-12-2020`   |
 | 11  | Write an SQL query to count how many employees work in the Legal department                                                                                  |
 | 12  | Write an SQL query to count how many employees have a gender of male                                                                                         |
 | 13  | Write an SQL query to count how many employees have a gender of female                                                                                       |
 | 14  | Write an SQL query to count how many employees do not have a gender of male or female                                                                        |
 | 15  | Write an SQL query to fetch only odd rows from the table                                                                                                     |
-| 16  | Write an SQL query to fetch only even column from the table                                                                                                  |
-| 17  | write an SQL query to fetch all employees details and arrange them in ascending order by `salary`                                                            |
-| 18  | write an SQL query to fetch all employees details and arrange them in decending order by `salary`                                                            |
+| 16  | Write an SQL query to fetch only even rows from the table                                                                                                    |
+| 17  | Write an SQL query to fetch all employees details and arrange them in ascending order by `salary`                                                            |
+| 18  | Write an SQL query to fetch all employees details and arrange them in decending order by `salary`                                                            |
 | 19  | Write an SQL query to fetch all employees details and arrange them in ascending order by `start_date`                                                        |
-| 19  | Write an SQL query to fetch all employees details and arrange them in decending order by `end_date`                                                          |
-| 20  | Write an SQL query to find the nth highest salary from a table                                                                                               |
-| 21  | Write an SQL query to find the 3rd highest salary from a table                                                                                               |
-| 22  | Write an SQL query to find the 3rd highest salary from a table without using the TOP/limit keyword                                                           |
-| 23  | Write an SQL query to find rows where no field is null                                                                                                       |
-| 24  | Write an SQL query to find rows where at least one field is null                                                                                             |
-| 25  |                                                                                                                                                              |
-| 26  |                                                                                                                                                              |
-| 27  |                                                                                                                                                              |
+| 20  | Write an SQL query to fetch all employees details and arrange them in decending order by `end_date`                                                          |
+| 21  | Write an SQL query to find the nth highest salary from a table                                                                                               |
+| 22  | Write an SQL query to find the 3rd highest salary from a table                                                                                               |
+| 23  | Write an SQL query to find the 3rd highest salary from a table without using the TOP/limit keyword                                                           |
+| 24  | Write an SQL query to find rows where no field is null                                                                                                       |
+| 25  | Write an SQL query to find rows where at least one field is null                                                                                             |
+| 26  | Write aa SQL query to find the names of employees that begin with `A`                                                                                        |
+| 27  | Write aa SQL query to find the names of employees that end with with `A`                                                                                     |
 | 28  |                                                                                                                                                              |
 | 29  |                                                                                                                                                              |
 | 30  |                                                                                                                                                              |
